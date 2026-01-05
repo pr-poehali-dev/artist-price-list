@@ -12,27 +12,27 @@ export default function Index() {
       category: 'Digital Art',
       icon: 'Palette',
       items: [
-        { name: 'Портрет', price: '3000₽', time: '3-5 дней' },
-        { name: 'Персонаж в полный рост', price: '5000₽', time: '5-7 дней' },
-        { name: 'Иллюстрация', price: '7000₽', time: '7-10 дней' },
+        { name: 'Портрет', price: '800₽', time: '3-5 дней' },
+        { name: 'Персонаж в полный рост', price: '1500₽', time: '5-7 дней' },
+        { name: 'Иллюстрация', price: '2000₽', time: '7-10 дней' },
       ]
     },
     {
       category: 'Традиционный арт',
       icon: 'Paintbrush',
       items: [
-        { name: 'Скетч', price: '1500₽', time: '1-2 дня' },
-        { name: 'Акварельный портрет', price: '4000₽', time: '5-7 дней' },
-        { name: 'Масляная живопись', price: '10000₽', time: '14-21 день' },
+        { name: 'Скетч', price: '500₽', time: '1-2 дня' },
+        { name: 'Акварельный портрет', price: '1200₽', time: '5-7 дней' },
+        { name: 'Масляная живопись', price: '3000₽', time: '14-21 день' },
       ]
     },
     {
       category: 'Концепт-арт',
       icon: 'Layers',
       items: [
-        { name: 'Дизайн персонажа', price: '6000₽', time: '5-7 дней' },
-        { name: 'Окружение', price: '8000₽', time: '7-10 дней' },
-        { name: 'Полный концепт', price: '12000₽', time: '10-14 дней' },
+        { name: 'Дизайн персонажа', price: '1800₽', time: '5-7 дней' },
+        { name: 'Окружение', price: '2500₽', time: '7-10 дней' },
+        { name: 'Полный концепт', price: '4000₽', time: '10-14 дней' },
       ]
     }
   ];
@@ -99,7 +99,7 @@ export default function Index() {
             <div className="max-w-4xl mx-auto text-center animate-fade-in">
               <Badge className="mb-6 bg-primary/20 text-primary border-primary/30">
                 <Icon name="Star" size={14} className="mr-1" />
-                Профессиональный художник
+                Начинающий художник
               </Badge>
               <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-foreground via-primary to-foreground bg-clip-text text-transparent">
                 Создаю искусство<br />на заказ
